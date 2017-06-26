@@ -1,0 +1,19 @@
+Daikon Z3
+Daikon version 4.6.4, released June 23, 2010; http://pag.csail.mit.edu/daikon.
+Reading declaration files .[8:31:33 PM]:                                                                                                                                                  (read 1 decls file)
+                                                                               Processing trace data; reading 1 dtrace file:
+[8:31:33 PM]: Finished reading /mnt/experiments/BDCI/BDCI_242/AnalysisV2/edit_p
+                                                                               ===========================================================================
+edit_patch ___ENTER:::POINT
+(= argc 1)
+(not ( = argv null))
+(= (hash prefix) null)
+===========================================================================
+edit_patch ___EXIT:::POINT
+(= BCT_return 0)
+(= argc 9280528)
+(= (hash argv) (hashcode 1))
+(not ( = argv null))
+(= (hash prefix) (hashcode 55152))
+(not ( = prefix null))
+Exiting Daikon.
